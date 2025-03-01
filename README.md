@@ -26,5 +26,6 @@ The project uses an SQLite database. The database.js file will create the databa
 Example Requests
 Create a new person:
 POST http://localhost:3000/personnes -H "Content-Type: application/json" -d '{"nom": "Eya", "adresse": "4070 Msaken"}'
+
 Get all persons:
 GET http://localhost:3000/personnes   
